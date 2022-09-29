@@ -1,38 +1,25 @@
-# Studentų galutinio balo skaičiuoklė #
+# Studentų galutinio balo skaičiuoklė v0.1 #
 Programa skirta apskaičiuoti kiekvieno studento galutinį balą panaudojant vidukį/medianą.
 
 - - - 
 ## Veikimo principas ##
-Pagal aprašytus užduoties reikalavimus realizuokite programą, kuri nuskaito vartotojų įvedamus reikiamus duomenis (patogiausiai naudoti struktūrą):
-studento vardą ir pavardę;
-namų darbų ir egzamino rezultatą;
-Baigus duomenų įvedimą, suskaičiuoja galutinį balą ir juos pateikia į ekraną tokiu ar panašiu pavidalu (kur galutinis apskaičiuotas balas pateikiamas dviejų skaičių po kablelio tikslumu):
- ```
-Pavardė    Vardas     Galutinis
---------------------------------
-Pavardė1   Vardas1    x.xx
-Pavardė2   Vardas2    y.yy
-Pavardė3   Vardas3    z.zz
- ```
+1. Vartotojas įvedą studento vardą ir pavardę. Studentų kiekis nėra ribojamas. Suvedus reikiamus duomenis apie studentą, vartotojas gauna užkalausą: "Ar norite ivesti dar vieno studento duomenis: [y/n]";
+2. Vartotojas turi pasirinkimą namų darbų pažymius ir egzamino rezultatą suvesti rankiniu būdų arba sugeneruoti atsitiktinai. Užklausa:  "Ar norite atsitiktinai generuoti pazymius? [y/n]";
+  2.2 Jei pazymius vartotojas veda pats. Vartotojas įvedą egzamino pažymį ir taip pat iki 10 namų darbų pažymių;
+3. Galutinis pažymys yra apsakičiaujamas tiek su pažymių vidurkiu, tiek ir su mediana;
+
+Programa išvedą studentų vardus ir pavardes bei studentų galutinius pažymius suskaičiuotus su pažymiu vidurkiu ir mediana.
+
+## Antroji užduotis v0.2
+Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas.
 
 - - - 
-## Įvedimo instrukcija ##
-Vartotojas po kiekvieno pažymio įvedimo turi paspausti *Enter*, jei nori užbaigti pažymio įvedimą turi paspausti *s* ir *enter*.
-Kai vartotojo prašoma pasirinkti, jis turi įvesti vieną iš nurodytų simbolių *taip/ne*.
-Programa išmeta klaidą ir prašo pakartoti įvedimą šiais atvejais:
-* Jei studento varde/pavardėje aptinka ne raidę, o neleistiną simbolį;
-* Jei namų darbų pažymys/egzamino balas yra:
-  * raidė;
-  * simbolis;
-  * ne intervale [1 - 10].
-* Jei vietoje 'taip' arba 'ne' aptinka kitą simbolį. 
-- - - 
-
-## Apie programą ##
-
-Programa yra realizuota dviem būdais: su C tipo masyvais ir su vektoriais. Programa su C tipo masyvais saugoma **c-masyvas.cpp**, o su vektoriais - **vektorius.cpp**.
-
-Programa yra realizuota dviem būdais: naudojant ```C``` tipo masyvą - **c-masyvas.cpp** ir ```<vector>``` tipo konteinerį - **vektorius.cpp**.
+## Veikimo principas ##
+1. v0.1 buvo papildyta, tuo kad dabar galima duomenis ne tik įvesti bet ir nuskaityti iš failo. Vartotojui suteikiamas pasirinkimas.
+2. Studentai yra surūšiuojami pagal vardus.
+3. Funkcijos, nauji duomenų tipai buvo perkelti į antraštinius (header) failus, bei sukurti trys nauji .cpp failai.
+4. Minimaliai panaudotas išimčių valdymas.
 
 ### Versijos ###
 *[v0.1](https://github.com/Kamile11/Project-1.git) - pirminė programos versija.
+*[v0.2]
