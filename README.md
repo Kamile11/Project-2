@@ -10,7 +10,7 @@ Programa skirta apskaičiuoti kiekvieno studento galutinį balą panaudojant vid
 
 Programa išvedą studentų vardus ir pavardes bei studentų galutinius pažymius suskaičiuotus su pažymiu vidurkiu ir mediana.
 
-## Antroji užduotis v0.2
+# Antroji užduotis v0.2 #
 Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas.
 
 - - - 
