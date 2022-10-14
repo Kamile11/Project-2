@@ -20,6 +20,16 @@ Programa išvedą studentų vardus ir pavardes bei studentų galutinius pažymiu
 3. Funkcijos, nauji duomenų tipai buvo perkelti į antraštinius (header) failus, bei sukurti trys nauji .cpp failai.
 4. Minimaliai panaudotas išimčių valdymas.
 
+## Ketvirtoji užduotis v0.4
+Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas;
+
+- - - 
+## Veikimo principas ##
+1. Atsirado nauja funkcija Failų generacija. Vartotojas pasirenka kiek studentų ir kiek studentų pažymių bus.
+2. Studentai yra surušiuojami į dvi grupes; vargšiukai ( x>5 ) ir gudročiai ( x<5 ).
+3. Studentai atspausdinami į du skirtingus failus.
+
 ### Versijos ###
 *[v0.1](https://github.com/Kamile11/Project-1.git) - pirminė programos versija.
 *[v0.2]
+*[v0.3]
