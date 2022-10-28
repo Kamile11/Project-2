@@ -20,7 +20,7 @@ Programa išvedą studentų vardus ir pavardes bei studentų galutinius pažymiu
 3. Funkcijos, nauji duomenų tipai buvo perkelti į antraštinius (header) failus, bei sukurti trys nauji .cpp failai.
 4. Minimaliai panaudotas išimčių valdymas.
 
-## Ketvirtoji užduotis v0.4
+# Trečioji užduotis v0.3 #
 Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas;
 
 - - - 
@@ -29,7 +29,17 @@ Programa išvedą studentų vardus ir pavardes bei studentų galutinius pažymiu
 2. Studentai yra surušiuojami į dvi grupes; vargšiukai ( x>5 ) ir gudročiai ( x<5 ).
 3. Studentai atspausdinami į du skirtingus failus.
 
+# Ketvirtoji užduotis v0.4 #
+
+- - - 
+## Veikimo principas ##
+Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas;
+1. Buvo sukurtos trys atskiros programos su trijais skirtingais konteineriais: vector, list, deque.
+2. Buvo atlikti laiko matavymai šių trijų konteinerių spartumo.
+
 ### Versijos ###
 *[v0.1](https://github.com/Kamile11/Project-1.git) - pirminė programos versija.
 *[v0.2]
 *[v0.3]
+*[v0.4]
+
