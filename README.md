@@ -37,12 +37,7 @@ Programa išvedą studentų vardus ir pavardes bei studentų galutinius pažymiu
 1. Buvo sukurtos dvi atskiros programos su dviejais skirtingais konteineriais: vector, list.
 2. Buvo atlikti laiko matavymai šių dvieju konteinerių spartumo.
 3. Laiko matavimai:
-|        |              | 1000         | 10000        | 100000      | 1000000    |
-|--------|--------------|--------------|--------------|-------------|------------|
-| Vector | Nuskaitymas  | 0.00071426 s | 0.0046599 s  | 0.0524893 s | 0.833517 s |
-|        | Isskirstymas | 0.00017619 s | 0.00187795   | 0.01768 s   | 0.442079 s |
-| List   | Nuskaitymas  | 0.00068584 s | 0.00538527 s | 0.0978146 s | 1.08923 s  |
-|        | Isskirstymas | 0.00017354 s | 0.00249038 s | 0.018878 s  | 0.331265 s |
+https://www.tablesgenerator.com/markdown_tables?fbclid=IwAR0vaZXO_MWGJvKpFlPJ37gmMk3FV0dWWYOQrP1gOGEG51XwfN7xm_TiBpE
 Analizė: 
 Greičiausias uskirstymas studentu į skirtingus konteinerius - vector;
 Greičiausias failo nuskaitymas ir suskaičiavimas - List;
