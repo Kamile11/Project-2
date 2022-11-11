@@ -34,12 +34,29 @@ Programa išvedą studentų vardus ir pavardes bei studentų galutinius pažymiu
 - - - 
 ## Veikimo principas ##
 Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas;
-1. Buvo sukurtos trys atskiros programos su trijais skirtingais konteineriais: vector, list, deque.
-2. Buvo atlikti laiko matavymai šių trijų konteinerių spartumo.
+1. Buvo sukurtos dvi atskiros programos su dviejais skirtingais konteineriais: vector, list.
+2. Buvo atlikti laiko matavymai šių dvieju konteinerių spartumo.
+Analizė: 
+Greičiausias uskirstymas studentu į skirtingus konteinerius - vector;
+Greičiausias failo nuskaitymas ir suskaičiavimas - List;
+
+# Penktoji užduotis v1.0 #
+
+- - - 
+## Veikimo principas ##
+Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas;
+1. Buvo ištestuotos 2 strategijos - vector, list konteineriams
+Analizė:
+1 strategija greitesnė - Vector konteineriu;
+2 strategija greitesnė - List konteineriu;
+2. Pritaikyti algoritmai studentų dalijimo procedūrai paspartinti (vector - konteinerio) - pritaikytas remove_if algoritmas
+<img width="388" alt="image" src="https://user-images.githubusercontent.com/99173750/163716564-6bca804b-2c73-4843-b267-342249a44af4.png">
+II strategija tris kartus pagreitėjo ir optimizavosi panaudojus remove_if algoritmą.
 
 ### Versijos ###
 *[v0.1](https://github.com/Kamile11/Project-1.git) - pirminė programos versija.
 *[v0.2]
 *[v0.3]
 *[v0.4]
+*[v1.0]
 
