@@ -55,7 +55,7 @@ II strategija tris kartus pagreitėjo ir optimizavosi panaudojus remove_if algor
 
 ### Versijos ###
 *[v0.1](https://github.com/Kamile11/Project-1.git) - pirminė programos versija.
-*[v0.2]
+*[v0.2] (https://github.com/Kamile11/Project-1.git)
 *[v0.3]
 *[v0.4]
 *[v1.0]
