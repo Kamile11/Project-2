@@ -1,4 +1,5 @@
-# Antras projektas Pirmoji užduotis v1.1 #
+# Antras projektas #
+# Pirmoji užduotis v1.1 #
 Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas;
 
 1. Programos realizaciją (versiją v1.0) pakeista taip, kad vietoje sukurtos data structūros jos pagrindu sukurta class'ę data.
@@ -30,8 +31,13 @@
 |         | 1000000  | 3.45865 s   | 0.371608 s   | 2.7613 s   |
 |         | 10000000 | 28.6496 s   | 8.76929 s    | 25.9495 s  |
 
+# Antroji užduotis v1.2 #
+Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas;
+1. Papildyta: copy constructor, copy assignment operator taip pat destructor (bet 'užkomentuota' dėl netikslumų)
 
-# Pirmas projektas Studentų galutinio balo skaičiuoklė v0.1 #
+
+# Pirmas projektas #
+# Studentų galutinio balo skaičiuoklė v0.1 #
 Programa skirta apskaičiuoti kiekvieno studento galutinį balą panaudojant vidukį/medianą.
 
 - - - 
