@@ -1,3 +1,7 @@
+/**
+ * @file header.h
+ * Vektoriaus funkciju failas. Aprasytos klases: student ir data, funkciju prototipai.
+*/
 #pragma once
 #include <iostream>
 #include <iomanip>
@@ -26,7 +30,6 @@ using std::vector;
 using std::ifstream;
 using std::to_string;
 
-//abstrakti bazes klase
 class student {
 protected:
 	string vard, pav;
