@@ -1,4 +1,8 @@
 ﻿//Source-vektoriai MAIN
+/**
+ * @file Source-vektoriai.cpp
+ * Vektoriaus main funkcija.
+*/
 #include "header.h"
 
 
@@ -20,6 +24,7 @@ int main()
 	std::stringstream my_buffer;
 	double vid;
 	int suma;
+
 
 	cout << "Ar nuskaityti studentu duomenys is failo ? [1]" << endl;
 	cout << "Ar norite ivesti studentu duomenis rankiniu budu? [2]" << endl;
