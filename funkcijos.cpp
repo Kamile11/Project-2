@@ -1,5 +1,12 @@
 #include "header.h"
+/**
+  *@file funkcijos.cpp
+  *Vektoriaus funkciju failas. Aprasytos pagrindines funkcijos, padedancios suskaiciuoti studentu galutini bala, suskirstyti juo ir kt.
+*/
 
+/**
+ * Funkcija skirta duoneu ivedimui.
+*/
 void ivestis(data& a, int& n)
 {
 	string anw; //ats: suvesti ar generuoti pazymius
@@ -86,6 +93,9 @@ void ivestis(data& a, int& n)
 	} while (y == 0);
 
 }
+/**
+ * Funkcija skirta rezultatu isvedimui.
+*/
 void rezultatai(data& a)
 {
 	cout << setw(20) << a.getvard() << " | " << setw(20) << a.getpav() << " | ";
@@ -94,10 +104,16 @@ void rezultatai(data& a)
 
 	cout << setw(20) << setprecision(2) << fixed << a.getmed() << endl;
 }
+/**
+ * Funkcija skirta rikiuoti failus.
+*/
 bool rikiavimas(const data& a, const data& b)
 {
 	return a.getvard() < b.getvard();
 }
+/**
+ * Funkcija skirta apskaiciuoti galutini studento bala naudojant vidurki
+*/
 void galutinisvid(data& a, int& n) //su vidurkiu
 {
 	double vid;
@@ -119,6 +135,9 @@ void galutinisvid(data& a, int& n) //su vidurkiu
 	vidurkis = 0.4 * vid + 0.6 * a.getegz();
 	a.setvid(vidurkis);
 }
+/**
+ * Funkcija skirta apskaiciuoti galutini studento bala naudojant mediana.
+*/
 void galutinismed(data& a, int& n, vector<data>& sarasas)//su mediana
 {
 	double med;
@@ -139,6 +158,9 @@ void galutinismed(data& a, int& n, vector<data>& sarasas)//su mediana
 	a.setmed(mediana);
 
 }
+/**
+ * Funkcija skirta nuskaiyti duomenis is failo.
+*/
 void fskaitymas(data&a, int& n, vector<data>& sarasas, vector<data>& kietiakai, vector<data>& vargsiukai)
 {
 	//----------------------------------------------------------------------
@@ -251,6 +273,9 @@ void fskaitymas(data&a, int& n, vector<data>& sarasas, vector<data>& kietiakai, 
 		cout << "Studentu isvedimas i du naujus failus: " << t3.elapsed() << " s" << endl;
 
 }
+/**
+ * Funkcija skirta irasyti duomenims.
+*/
 void firasimas(data& a, int& n, vector<data>& sarasas)
 {
 	std::ofstream out_f("kursiokai_cop.txt");
@@ -272,6 +297,9 @@ void firasimas(data& a, int& n, vector<data>& sarasas)
 	out_f.close();
 
 }
+/**
+ * Funkcija skirta generuoti failus.
+*/
 void generacija(std::stringstream& my_buffer, int& n, int &s) //n - studentai, s - paz
 {
 
