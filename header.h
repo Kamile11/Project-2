@@ -9,6 +9,7 @@
 #include <random>
 #include <chrono>
 #include <sstream>
+#include <array>
 //
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,11 +26,22 @@ using std::vector;
 using std::ifstream;
 using std::to_string;
 
+//abstrakti bazes klase
+class student {
+protected:
+	string vard, pav;
+public:
+	string getvard() const { return vard; }
+	string getpav() const { return pav; }
+	virtual void setvard(string vard) = 0;
+	virtual void setpav(string pav) = 0;
 
-class data
+	student (string v = "", string p = "") : vard{v}, pav{p}{}
+};
+class data : public student
 {
 private:
-	string vard, pav;
+	
 	int paz[20],  egz;
 	double vidrezult, medrezult;
 public: 
@@ -38,10 +50,12 @@ public:
 		vidrezult = 0;
 		medrezult = 0;
 	}
-	//destruktorius
-	//~data();
+
+	data(int paz[20], int egz , double vidrezult, double medrezult, string vard, string pav) : student(vard, pav) {}
+	        
+	~data(); //destruktorius
 	data(const data& d); // copy konstruktorius
-	data& operator=(const data& d); //
+	data& operator=(const data& d); // copy assignment
 	// vid
 	void setvid(double sk);
 	double getvid() const;
@@ -56,10 +70,9 @@ public:
 	int getpaz(int i) const;
 	//vard
 	void setvard(string vardas);
-	string getvard() const;
 	//pav
 	void setpav(string pavarde);
-	string getpav() const;
+	
 	
 };
 
