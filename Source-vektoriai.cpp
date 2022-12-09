@@ -1,4 +1,4 @@
-//Source-vektoriai MAIN
+﻿//Source-vektoriai MAIN
 #include "header.h"
 
 
@@ -9,7 +9,7 @@ int main()
 	vector<data> sarasas;
 	vector<data> vargsiukai;
 	vector<data> kietiakai;
-	//vector<data> mokinys[100];
+	
 	data laik;
 	string anw; // ats: apie dar vieno studento duomenu vedima
 	string Ranw; //ats: duomenu gavimo pasirinkimas
@@ -20,7 +20,6 @@ int main()
 	std::stringstream my_buffer;
 	double vid;
 	int suma;
-
 
 	cout << "Ar nuskaityti studentu duomenys is failo ? [1]" << endl;
 	cout << "Ar norite ivesti studentu duomenis rankiniu budu? [2]" << endl;
