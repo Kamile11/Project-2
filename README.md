@@ -40,6 +40,9 @@
 1.Vietoje turimos vienos Data klasės sukurtos dvi: bazinė klasė - Student, skirtą bendrai aprašyti žmogų ir tuomet iš jos išvestinė (derived) klasė - Data.
 2.Student bazinė klasė - abstrakčioji klasė,
 
+# Ketvirtoji užduotis v2.0 #
+Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas;
+1.Sukurkita dokumentacija panaudojant Doxygen 1.5 projekto pagrindu.
 
 # Pirmas projektas #
 # Studentų galutinio balo skaičiuoklė v0.1 #
