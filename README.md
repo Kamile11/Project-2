@@ -35,6 +35,11 @@
 Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas;
 1. Papildyta: copy constructor, copy assignment operator taip pat destructor (bet 'užkomentuota' dėl netikslumų)
 
+# Trečioji užduotis v1.5 #
+Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas;
+1.Vietoje turimos vienos Data klasės sukurtos dvi: bazinė klasė - Student, skirtą bendrai aprašyti žmogų ir tuomet iš jos išvestinė (derived) klasė - Data.
+2.Student bazinė klasė - abstrakčioji klasė,
+
 
 # Pirmas projektas #
 # Studentų galutinio balo skaičiuoklė v0.1 #
